@@ -28,7 +28,7 @@ namespace WindowsFormsApplication1
                 if(control.GetType()==typeof(Button)  && control.Tag.ToString()==jogada.ToString())
                 {
                     Bitmap imagem = new Bitmap
-                        ("img\\" + (rdPlayer1.Checked ? "x.png" : "o.png"));
+                        ( "img\\" + (rdPlayer1.Checked ? "x.png" : "o.png"));
                     
                     ((Button)control).BackgroundImage = imagem;
                     
