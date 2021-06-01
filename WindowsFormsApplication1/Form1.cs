@@ -73,6 +73,7 @@ namespace WindowsFormsApplication1
             else
             {
                 System.Media.SystemSounds.Beep.Play();
+                return;
 
             }
             VerificaVitoria();
